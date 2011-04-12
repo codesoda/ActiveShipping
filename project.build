@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project name="CodeSoda.ActiveShipping" default="all">
+
+	<include buildfile="utility.build" />
+
+	<property name="debug" value="false" />
+
+	<property name="nant.settings.currentframework" value="net-3.5" />
+	<property name="framework.version" value="v2.0.50727" />
+	
+	<property name="svn.exe" value="..\tools\svn\svn.exe" />
+	<property name="Assembly.Version" value="1.0.4" />
+
+	<target name="compile" depends="init, versioninfo" descriptions="builds the impression dll">
+		<csc target="library" output="build\${project::get-name()}.dll" debug="${debug}" >
+			<sources>
+				<include name="build\SolutionVersionInfo.cs" />
+				<include name="src\SolutionInfo.cs" />
+				<include name="src\app\**\*.cs" />
+			</sources>
+		</csc>
+
+	</target>
+
+</project>

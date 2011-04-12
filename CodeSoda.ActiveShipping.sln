@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B912CB3-89D6-4085-B2A1-355E4C18BB27}"
+	ProjectSection(SolutionItems) = preProject
+		project.build = project.build
+		src\SolutionInfo.cs = src\SolutionInfo.cs
+		utility.build = utility.build
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSoda.ActiveShipping", "src\app\CodeSoda.ActiveShipping\CodeSoda.ActiveShipping.csproj", "{86EA55B0-AC8B-4213-8B8D-D0882B5FAF7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSoda.ActiveShipping.Tests", "src\test\CodeSoda.ActiveShipping.Tests\CodeSoda.ActiveShipping.Tests.csproj", "{5214929A-E852-4557-ABFD-2896C301951B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purolator.EShip", "src\app\Purolator.EShip\Purolator.EShip.csproj", "{FE384D17-CDC3-4133-8521-EE7834C02945}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86EA55B0-AC8B-4213-8B8D-D0882B5FAF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86EA55B0-AC8B-4213-8B8D-D0882B5FAF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86EA55B0-AC8B-4213-8B8D-D0882B5FAF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86EA55B0-AC8B-4213-8B8D-D0882B5FAF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5214929A-E852-4557-ABFD-2896C301951B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5214929A-E852-4557-ABFD-2896C301951B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5214929A-E852-4557-ABFD-2896C301951B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5214929A-E852-4557-ABFD-2896C301951B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE384D17-CDC3-4133-8521-EE7834C02945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE384D17-CDC3-4133-8521-EE7834C02945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE384D17-CDC3-4133-8521-EE7834C02945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE384D17-CDC3-4133-8521-EE7834C02945}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
